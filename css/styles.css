@@ -25,6 +25,11 @@ header {
 	border-bottom: ridge #AC22A4 5px;
 }
 
+#hero {
+	width: 95%;
+	max-height: 550px;
+}
+
 h1 {
 	color: #A17002;
 	text-align: center;
@@ -42,6 +47,12 @@ h3 {
 }
 
 /* Nav CSS */
+nav {
+	display: block; 
+	width: 95%;
+	font-size: 1.5em;
+}
+
 nav ul {
 	list-style: none;
 	display: block;
@@ -57,6 +68,7 @@ nav a {
 	font-size: 1em;
 	text-decoration: none;
 	padding: 0.1em 0.75em;
+	background-color: #B93436;
 }
 
 nav li {
@@ -69,6 +81,11 @@ nav ul {
 	list-style: none;
 	text-align: center;
 	margin: auto;
+}
+
+nav a:hover {
+	color: #B93436;
+	background-color: #1E1D6F;
 }
 
 /* Main CSS */
@@ -91,10 +108,28 @@ main p {
 
 /* Footer CSS */
 footer {
-	font-size: 0.75em;
+	font-size: 1.2em;
 	text-align: center;
 	padding: 5% 5%;
 	width: 90%;
 	background-color: #000000;
 	color: #5850EB;
+}
+
+footer a, .cont{
+	text-align: center;
+	font-size: 1em;
+	text-decoration: none;
+	background-color: #CE24C8;
+	color: #000;
+	display: block;
+}
+
+footer a:hover, .cont:hover {
+	text-align: center;
+	display: inline;
+	font-size: 1em;
+	text-decoration: none;
+	background-color: #000;
+	color: #CE24C8;
 }
