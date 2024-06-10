@@ -116,7 +116,7 @@ footer {
 	color: #5850EB;
 }
 
-footer a, .cont{
+footer .cont{
 	text-align: center;
 	font-size: 1em;
 	text-decoration: none;
@@ -125,9 +125,8 @@ footer a, .cont{
 	display: block;
 }
 
-footer a:hover, .cont:hover {
+footer .cont:hover {
 	text-align: center;
-	display: inline;
 	font-size: 1em;
 	text-decoration: none;
 	background-color: #000;
