@@ -1,0 +1,137 @@
+/* CSS Document */
+
+/* 
+Fonts:
+*/
+
+/* CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "Helvetica Neue", Gotham, Helvetica, Arial, "sans-serif";
+}
+
+/* Body CSS */
+
+/* Header CSS */
+header {
+	background-color: #0B125D;
+	color: #72C5EC;
+	text-align: center;
+	display: block;
+	width: 90%;
+	padding: 0 5% 5% 5%;
+	border-bottom: ridge #8C1F1F 5px;
+}
+
+#hero {
+	width: 95%;
+	max-height: 550px;
+}
+
+h1 {
+	color: #72C5EC;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+h2 {
+	color: #72C5EC;
+	text-align: center;
+}
+
+h3 {
+	color: #180B54;
+	padding-left: 1%;
+}
+
+/* Nav CSS */
+nav {
+	display: block; 
+	width: 95%;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style: none;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5% 0 0 0;
+}
+
+nav a {
+	color: #ECE0B6;
+	text-align: center;
+	font-size: 1em;
+	text-decoration: none;
+	padding: 0.1em 0.75em;
+	background-color: #33608D;
+}
+
+nav li {
+	border-top: none;
+	border-bottom: none;
+	display: inline-block;
+	}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	margin: auto;
+}
+
+nav a:hover {
+	color: #33608D;
+	background-color: #ECE0B6;
+}
+
+/* Main CSS */
+body main {
+	background-color: #5CA2FF;
+	color: #180B54;
+	border-left:   #D7CF8A 10px double;
+	border-right:   #D7CF8A 10px double;
+}
+
+main a {
+	text-decoration: none;
+	color: #E2A0ED;
+}
+
+main p {
+	text-align: left;
+	padding: 1% 0 1% 1%;
+}
+
+main h2 {
+	color: #180B54;
+	text-align: center;
+}
+
+/* Footer CSS */
+footer {
+	font-size: 1.2em;
+	text-align: center;
+	padding: 5% 5%;
+	width: 90%;
+	background-color: #203291;
+	color: #000000;
+}
+
+footer .cont {
+	text-align: center;
+	font-size: .8em;
+	text-decoration: none;
+	background-color: #0B0A4F;
+	color: #7973B8;
+	display: block;
+}
+
+footer .cont:hover {
+	text-align: center;
+	text-decoration: none;
+	background-color: #7973B8;
+	color: #0B0A4F;
+}
