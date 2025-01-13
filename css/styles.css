@@ -36,6 +36,7 @@ h1 {
 	color: #A17002;
 	text-align: center;
 	font-size: 1.8em;
+	padding: 2% 0;
 }
 
 h2 {
@@ -136,8 +137,8 @@ footer .cont:hover {
 }
 
 @media (max-width: 472px) {
-	img {
-		display: none
+	#hero img {
+		display: none;
 	}
 
 	nav {
