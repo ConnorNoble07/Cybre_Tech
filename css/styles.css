@@ -62,7 +62,6 @@ nav ul {
 	text-align: center;
 	margin: 0 auto;
 	padding: 5% 0 0 0;
-	color: #C71FB5
 }
 
 nav a {
@@ -79,12 +78,6 @@ nav li {
 	border-bottom: none;
 	display: inline-block;
 	}
-
-nav ul {
-	list-style: none;
-	text-align: center;
-	margin: auto;
-}
 
 nav a:hover {
 	color: #B93436;
