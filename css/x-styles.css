@@ -19,13 +19,12 @@ body {
 
 /* Header CSS */
 header {
-	background-color: #18520C;
-	color: #A17002;
+	background-color: #de5b0f;
 	text-align: center;
 	display: block;
 	width: 90%;
 	padding: 0 5% 5% 5%;
-	border-bottom: ridge #AC22A4 5px;
+	border-bottom: ridge #064b09 5px;
 }
 
 #hero {
@@ -36,19 +35,19 @@ header {
 }
 
 h1 {
-	color: #A17002;
+	color: #ffa0fa;
 	text-align: center;
 	font-size: 1.8em;
 	padding: 2% 0;
 }
 
 h2 {
-	color: #A17002;
+	color: #056b25;
 	text-align: center;
 }
 
 h3 {
-	color: #A17002;
+	color: #056b25;
 	text-align: center;
 }
 
@@ -68,12 +67,12 @@ nav ul {
 }
 
 nav a {
-	color: #1E1D6F;
+	color: #3fde5f;
 	text-align: center;
 	font-size: 1em;
 	text-decoration: none;
 	padding: 0.1em 0.75em;
-	background-color: #B93436;
+	background-color: #8e0a0d;
 }
 
 nav li {
@@ -89,10 +88,11 @@ nav a:hover {
 
 /* Main CSS */
 body main {
-	background-color: #70080A;
+	background-color: #d15d1f;
 	color: #D7EFF4;
 	border-left: #A17002 10px ridge;
 	border-right: #A17002 10px ridge;
+	margin-top: 5%;
 }
 
 main a {
@@ -112,15 +112,15 @@ footer {
 	padding: 5% 5%;
 	width: 90%;
 	background-color: #000000;
-	color: #5850EB;
+	color: #cb0f0f;
 }
 
 footer .cont{
 	text-align: center;
 	font-size: 1em;
 	text-decoration: none;
-	background-color: #CE24C8;
-	color: #000;
+	background-color: #8a0303;
+	color: #eb5a2a;
 	display: block;
 }
 
@@ -128,8 +128,8 @@ footer .cont:hover {
 	text-align: center;
 	font-size: 1em;
 	text-decoration: none;
-	background-color: #000;
-	color: #CE24C8;
+	background-color: #eb5a2a;
+	color: #8a0303;
 }
 
 @media (max-width: 472px) {
