@@ -34,19 +34,19 @@ header {
 }
 
 h1 {
-	color: #A17002;
+	color: #FEBF2C;
 	text-align: center;
 	font-size: 1.8em;
 	padding: 2% 0;
 }
 
 h2 {
-	color: #A17002;
+	color: #FEBF2C;
 	text-align: center;
 }
 
 h3 {
-	color: #A17002;
+	color: #FEBF2C;
 	text-align: center;
 }
 
@@ -92,20 +92,34 @@ nav a .cont:hover {
 
 /* Main CSS */
 body main {
-	background-color: #70080A;
+	background-color: #B773B0;
 	color: #D7EFF4;
 	border-left: #659258 10px ridge;
 	border-right: #659258 10px ridge;
+	padding-bottom: 5%;
 }
 
 main a {
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	color: #B7B7B8;
+	font-size: 1.2em;
+}
+
+h4 .game {
+	display: block;
+	width: 82%;
+	margin: 0 auto;
 	text-decoration: none;
 	color: #E2A0ED;
 }
 
 main p {
+	display: block;
+	width: 80%;
 	text-align: left;
-	padding: 4% 0 4% 1%;
+	margin: 0 auto;
 }
 
 .cards {
