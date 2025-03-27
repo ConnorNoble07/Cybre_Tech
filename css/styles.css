@@ -31,23 +31,29 @@ header {
 	background-size: contain;
 	max-width: 1024px;
 	padding-bottom: 5%;
+	display: block;
+	width: 60%;
+	margin: 0 auto;
 }
 
 h1 {
 	color: #FEBF2C;
-	text-align: center;
 	font-size: 1.8em;
 	padding: 2% 0;
 }
 
 h2 {
 	color: #FEBF2C;
-	text-align: center;
+	
 }
 
 h3 {
 	color: #FEBF2C;
-	text-align: center;
+	padding-left: 2%;
+}
+
+.game {
+	padding-left: 4%;
 }
 
 /* Nav CSS */
@@ -96,28 +102,25 @@ body main {
 	color: #D7EFF4;
 	border-left: #659258 10px ridge;
 	border-right: #659258 10px ridge;
-	padding-bottom: 5%;
+	padding: 5% 0;
+}
+
+.content {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
 }
 
 main a {
-	text-align: center;
 	margin: 0 auto;
 	text-decoration: none;
 	color: #B7B7B8;
 	font-size: 1.2em;
 }
 
-h4 .game {
-	display: block;
-	width: 82%;
-	margin: 0 auto;
-	text-decoration: none;
-	color: #E2A0ED;
-}
-
 main p {
 	display: block;
-	width: 80%;
+	width: 90%;
 	text-align: left;
 	margin: 0 auto;
 }
@@ -227,43 +230,4 @@ footer a .cont:hover {
 	text-decoration: none;
 	background-color: #000;
 	color: #CE24C8;
-}
-
-@media (max-width: 472px) {
-	#hero img {
-		display: none;
-	}
-
-	nav {
-		border-top: solid 2px #000;
-		border-bottom: solid 2px #000;
-		display: block;
-	}
-	
-	nav ul {
-		list-style: none;
-		display: block;
-		text-align: center;
-		margin: 0 auto;
-		padding: 5% 0 0 0;
-		color: #C71FB5
-	}
-	
-	nav a {
-		color: #1E1D6F;
-		text-align: center;
-		font-size: 1em;
-		text-decoration: none;
-		padding: 0.1em 0.75em;
-		background-color: #B93436;
-	}
-
-	nav li {
-		padding: 2%;
-		display: block;
-		}
-
-	footer nav .cont {
-		display: none
-	}
 }
