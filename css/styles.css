@@ -1,4 +1,9 @@
 /* CSS Document */
+/* 
+	File Name: styles.css- Cybre Tech Industries
+	Designer's Name: Connor J. Noble
+	Project: BOCES Senior Project 
+	*/
 
 /* 
 Fonts:
@@ -150,14 +155,13 @@ main p {
 	transition: 1.5s ease;
 }
 
-.card:hover h1{
+.card h1:hover{
 	color: #000;
 	transition: 1.5s ease;
 }
 
 .card img{
 	width: 80%;
-	background-color: #7EAD35;
 	display: block;
 	margin: 0 auto;
 	margin-top: 2%;
@@ -175,12 +179,41 @@ main p {
 	color: #000;
 }
 
-.card:hover img{
-	background-color: #741315
+.card a:hover {
+	color: #fff;
 }
 
-.card:hover a {
-	color: #fff;
+.flight {
+	color: #000;
+	background-color: #af892f;
+}
+
+.flight img {
+	width: 50%;
+}
+
+.flight h3 {
+	color: #000;
+	text-align: center;
+}
+
+.card .flight img {
+	background-color: none;
+}
+
+.card:hover .flight:hover img {
+	background-color: none;
+}
+
+.flight:hover {
+	color: #af892f;
+	background-color: #000;
+	transition: 1.5s ease;
+}
+
+.flight:hover h3 {
+	color: #af892f;
+	transition: 1.5s ease;
 }
 
 /* Footer CSS */
