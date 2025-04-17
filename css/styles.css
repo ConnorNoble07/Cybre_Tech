@@ -57,8 +57,14 @@ h3 {
 	padding-left: 2%;
 }
 
+h4 {
+	color: #FEBF2C;
+	padding-left: 2.5%;
+}
+
 .game {
 	padding-left: 4%;
+	color: #B7B7B8;
 }
 
 /* Nav CSS */
