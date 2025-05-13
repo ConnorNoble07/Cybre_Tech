@@ -1,12 +1,12 @@
 /* CSS Document */
 /* 
-	File Name: styles.css- Cybre Tech Industries
+	File Name: dd-styles.css- Cybre Tech Industries
 	Designer's Name: Connor J. Noble
 	Project: BOCES Senior Project 
 	*/
 
 /* 
-Fonts: 
+Fonts:
 	font-family: "Underdog", sans-serif;
 	font-family: "Tagesschrift", sans-serif;
 	font-family: "Poetsen One", sans-serif;
@@ -28,13 +28,13 @@ Fonts:
 
 /* Header CSS */
 header {
-	background-color: #18520C;
+	background-color: #1d5864;
 	color: #A17002;
 	text-align: center;
 	display: block;
 	width: 90%;
 	padding: 0 5% 5% 5%;
-	border-bottom: ridge #AC22A4 5px;
+	border-bottom: ridge #09145b 5px;
 }
 
 #hero {
@@ -49,32 +49,27 @@ header {
 }
 
 h1 {
-	color: #FEBF2C;
+	color: #09145b;
 	font-size: 1.8em;
 	padding: 2% 0;
 	font-family: "Underdog", sans-serif;
 }
 
 h2 {
-	color: #FEBF2C;
+	color: #09145b;
 	font-family: "Underdog", sans-serif;
 }
 
 h3 {
-	color: #FEBF2C;
+	color: #09145b;
 	padding-left: 2%;
 	font-family: "Underdog", sans-serif;
 }
 
 h4 {
-	color: #FEBF2C;
+	color: #09145b;
 	padding-left: 2.5%;
 	font-family: "Underdog", sans-serif;
-}
-
-.game {
-	padding-left: 4%;
-	color: #B7B7B8;
 }
 
 /* Nav CSS */
@@ -84,26 +79,26 @@ nav {
 	font-size: 1.5em;
 	text-align: center;
 	width: 70%;
-	background-color: #000000;
+	background-color: #101970;
 	font-family: "Tagesschrift", sans-serif;
 }
 
 nav .cont{
 	text-align: center;
 	text-decoration: none;
-	background-color: #9b782e;
-	color: #000;
+	background-color: #101970;
+	color: #fff;
 	display: block;
 	border-radius: 15%;
-	border: #510404 5px solid;
+	border: #5494a4 5px solid;
 	font-family: "Tagesschrift", sans-serif;
 }
 
 nav a .cont{
 	text-align: center;
 	text-decoration: none;
-	background-color: #9b782e;
-	color: #000;
+	background-color: #fff;
+	color: #101970;
 	display: block;
 	font-family: "Tagesschrift", sans-serif;
 }
@@ -111,8 +106,8 @@ nav a .cont{
 nav .cont:hover {
 	text-align: center;
 	text-decoration: none;
-	background-color: #000;
-	color: #9b782e;
+	background-color: #fff;
+	color: #101970;
 	font-family: "Tagesschrift", sans-serif;
 }
 
@@ -126,10 +121,10 @@ nav a .cont:hover {
 
 /* Main CSS */
 body main {
-	background-color: #B773B0;
+	background-color: #1f5699;
 	color: #D7EFF4;
-	border-left: #659258 10px ridge;
-	border-right: #659258 10px ridge;
+	border-left: #09145b 10px ridge;
+	border-right: #09145b 10px ridge;
 	padding: 5% 0;
 }
 
@@ -153,92 +148,6 @@ main p {
 	margin: 0 auto;
 }
 
-.cards {
-	display: flex;
-	justify-content: center;
-	align-items: stretch;
-	flex-wrap: wrap;
-	width: 90%;
-	margin: 0 auto;
-}
-
-.card {
-	background-color: #000;
-	color: #df32dc;
-	overflow: hidden;
-	margin: 10px;
-	transition: 1.5s ease;
-	margin-bottom: 5em;
-	flex-basis: 30%;
-	width: 30%
-}
-
-.card h1 {
-	color: #df32dc;
-	transition: 1.5s ease;
-}
-
-.card h1:hover{
-	color: #000;
-	transition: 1.5s ease;
-}
-
-.card img{
-	width: 80%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 2%;
-	transition: 1.5s ease;
-}
-
-.card a {
-	color: #000;
-	text-decoration: none;
-	transition: 1.5s ease;
-}
-
-.card:hover {
-	background-color: #df32dc;
-	color: #000;
-}
-
-.card a:hover {
-	color: #fff;
-}
-
-.flight {
-	color: #000;
-	background-color: #af892f;
-}
-
-.flight img {
-	width: 50%;
-}
-
-.flight h3 {
-	color: #000;
-	text-align: center;
-}
-
-.card .flight img {
-	background-color: none;
-}
-
-.card:hover .flight:hover img {
-	background-color: none;
-}
-
-.flight:hover {
-	color: #af892f;
-	background-color: #000;
-	transition: 1.5s ease;
-}
-
-.flight:hover h3 {
-	color: #af892f;
-	transition: 1.5s ease;
-}
-
 /* Footer CSS */
 footer {
 	font-size: 1.2em;
@@ -252,21 +161,4 @@ footer {
 footer nav {
 	font-size: 1.2em;
 	width: 50%;
-	background-color: #fff;
-	color: #fff;
-}
-
-footer nav a .cont{
-	text-align: center;
-	text-decoration: none;
-	background-color: #9b782e;
-	color: #fff;
-	display: block;
-}
-
-footer nav .cont:hover {
-	text-align: center;
-	text-decoration: none;
-	background-color: #fff;
-	color: #9b782e;
 }
