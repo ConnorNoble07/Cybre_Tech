@@ -153,6 +153,16 @@ main p {
 	margin: 0 auto;
 }
 
+.contacts p {
+	color: #000;
+	font-size: 1em;
+}
+
+.contacts a {
+	color: #000;
+	font-size: 1em;
+}
+
 .cards {
 	display: flex;
 	justify-content: center;
